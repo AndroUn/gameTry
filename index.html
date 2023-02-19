@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/8705b7f85a.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=PT+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <title>Gamestore</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="menu_list"><a href="#" class="menu_link">home</a></li>
+            <li class="menu_list"><a href="#" class="menu_link">portfolio</a></li>
+            <li class="menu_list"><a href="#" class="menu_link">tutorials</a></li>
+            <li class="menu_list"><a href="#" class="menu_link">about</a></li>
+            <li class="menu_list"><a href="#" class="menu_button">contact us</a></li>
+        </ul>
+    </nav>
+    <div class="modal">
+        <form class="modal_form">
+            <h2>Fill out this form and we will contact you as soon as possible</h2>
+            <h5>Email</h5>
+            <input placeholder="Enter email" type="email" name="email" id="email" required>
+            <h5>Phone Number</h5>
+            <input placeholder="Enter number" type="text" name="number" id="phone_number" required>
+            <button class="modal_submit">Send</button>
+            <button class="modal_close">&#10006</button>
+        </form>
+    </div>
+
+    <section class="slides">
+        <div class="slides_wrapper">
+            <div class="slides_prev"><i class="fa-solid fa-arrow-left"></i></div>
+            <div class="slides_next"><i class="fa-solid fa-arrow-right"></i></div>
+
+            <div class="slides_inner">
+                <div class="slides_slide slides_slide_1">
+                    <h2>Greeting Cyborg!</h2>
+                    <div class="slides_text"> Welcome, on this site you will see a couple of interesting elements written in native javascript, also you can evaluate my skill in building page layout. 
+                        Most elements do not carry any meaning and are entered or inserted to demonstrate the element. Please don't judge me by them.</div>
+                    <button class="slides_button" id="slides_btn">join us</button>
+                </div>
+
+                <div class="slides_slide slides_slide_2">
+                    <h2>Greeting Cyborg!</h2>
+                    <div class="slides_text"> Welcome, on this site you will see a couple of interesting elements written in native javascript, also you can evaluate my skill in building page layout. 
+                        Most elements do not carry any meaning and are entered or inserted to demonstrate the element. Please don't judge me by them.</div>
+                        
+                </div>
+
+                <div class="slides_slide slides_slide_3">
+                    <h2>Greeting Cyborg!</h2>
+                    <div class="slides_text"> Welcome, on this site you will see a couple of interesting elements written in native javascript, also you can evaluate my skill in building page layout. 
+                        Most elements do not carry any meaning and are entered or inserted to demonstrate the element. Please don't judge me by them.</div>
+                    <button class="slides_button">join us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="elements">
+        <h2>Pre-order Now</h2>
+        <div class="elements_grid">
+        
+        </div>
+
+    </section>
+    
+
+    
+
+
+    <section class="myTimer">
+        <div class="timer">
+            <div class="timer_text"><h5>Demon Slayer season 3 will be released in</h5></div>
+                <div class="timer_container"> 
+                    <div class="timer_numbers">
+                        <div class="timer_number"><div><span id="days">08</span></div><div class="timer_descr">days</div></div>
+                        <div class="timer_number"><div><span id="hours">18</span></div><div class="timer_descr">hours</div></div>
+                        <div class="timer_number"><div><span id="minutes">33</span></div><div class="timer_descr">minutes</div></div>
+                        <div class="timer_number"><div><span id="seconds">44</span></div><div class="timer_descr">seconds</div></div>  
+                    </div>
+                </div>  
+                <img  src="img/tanjiro.png">      
+            </div>
+    </section>
+
+
+    <section class="myGames">
+        
+        <div class="tabs">
+            <h2>My Favorite Games</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="tabs_header">
+                    <div class="tabs_header_item">Final Fantasy 7 Remake</div>
+                    <div class="tabs_header_item">God of ragnarok</div>
+                    <div class="tabs_header_item">Witcher 3 Complete Edition</div>
+                </div>
+            </div>
+        </div>
+        
+            <div class="tabs_content">
+                <div class="tabs_descr"><h5>Final Fantasy 7 Remake</h5>
+                    Cloud Strife, an ex-SOLDIER operative, descends on the mako-powered city of Midgar. 
+                    The world of the timeless classic FINAL FANTASY VII is reborn, using cutting-edge graphics technology, a new battle system and an additional adventure featuring Yuffie Kisaragi.
+                </div>
+                <img src="img/ff7-remake.jpg">
+            </div>
+
+            <div class="tabs_content">
+                <div class="tabs_descr"><h5>God of ragnarok</h5>
+                    Atreus seeks knowledge to help him understand the prophecy of “Loki” and establish his role in Ragnarök.
+                    Kratos must decide whether he will be chained by the fear of repeating his mistakes or break free of his past to be the father Atreus needs.
+                </div>
+                <img src="img/gofWarRagnarok.jpg">
+            </div>
+
+            <div class="tabs_content">
+                <div class="tabs_descr"><h5>Witcher 3 Complete Edition</h5>
+                    You are Geralt of Rivia, mercenary monster slayer. Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down Ciri — the Child of Prophecy, a living weapon that can alter the shape of the world.
+
+                </div>
+                <img src="img/witcher.jpeg">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/8705b7f85a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+</body>
+</html>
