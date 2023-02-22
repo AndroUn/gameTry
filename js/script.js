@@ -268,7 +268,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
     "img/Horizon_Call_of_the_Mountain_cover_art.jpg",
     "Horizon_Call_of_the_Mountain",
     "Horizon Call of the Mountain",
-    'Horizon Call of the Mountain is an upcoming action-adventure video game developed by Guerrilla Games and Firesprite. As a spin-off of the Horizon series, the game is set to be released in February 2023 as a launch title for the PlayStation VR2 virtual reality headset.',
+    'Horizon Call of the Mountain is an upcoming action-adventure video game developed by Guerrilla Games and Firesprite.',
     75,
     ".elements_grid"
   ).render();
@@ -279,7 +279,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
     "img/Resident_Evil_4_remake_cover_art.jpg",
     "resident evil 4",
     "Resident Evil 4",
-    "Survival is just the beginning. Six years have passed since the biological disaster in Raccoon City. Leon S. Kennedy, one of the survivors, tracks the president's kidnapped daughter to a secluded European village, where there is something terribly wrong with the locals.",
+    "Leon S. Kennedy, one of the survivors, tracks the president's kidnapped daughter to a secluded European village, where...",
      60,
     ".elements_grid"
   ).render();
@@ -289,7 +289,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
     "img/Star_Wars_Jedi_Survivor.jpeg",
     "Star_Wars_Jedi_Survivor",
     "Star Wars Jedi: Survivor",
-    'The story of Cal Kestis continues in STAR WARS Jedi: Survivor™, a galaxy-spanning, third-person, action-adventure game. Pre-order any edition to receive the Obi-Wan Kenobi™ inspired "Jedi Survival" Cosmetic Pack. Coming to PC, PlayStation 5, and Xbox Series X|S.',
+    'The story of Cal Kestis continues in STAR WARS Jedi: Survivor™, a galaxy-spanning, third-person, action-adventure game.',
     70,
     ".elements_grid"
   ).render();
