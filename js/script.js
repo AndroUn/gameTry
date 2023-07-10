@@ -169,7 +169,7 @@ window.addEventListener('DOMContentLoaded', ()=> {
     setClock(id, deadline)
   };
   
-  timer('.timer_container', '2023-04-15');
+  timer('.timer_container', '2023-08-17');
       
 
 
